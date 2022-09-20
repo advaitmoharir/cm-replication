@@ -1,4 +1,4 @@
-# cm-replication
+# Replication of Chalfin and McCrary (2018)
 
 This repository contains the data and code for the replication of [Are US Cities Underpoliced? Theory and Evidence](https://eml.berkeley.edu/~jmccrary/chalfin_mccrary2018.pdf). This project was undertaken with [Federico Crudu](https://sites.google.com/site/federicocrudu/).
 
@@ -13,3 +13,9 @@ To obtain the cleaned extended dataset, follow these steps
 3. Within the project, open `Cleanup.R`
 4. Run the file. The final csv output is already stored in the replication folder.
 
+To implement the replication, follow these steps
+
+1. Go to the folder `replication`.
+2. Open `replication.Rproj`.
+3. Within the project, open `replication.R`.
+4. Run the file.
