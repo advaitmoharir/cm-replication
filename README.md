@@ -4,14 +4,14 @@ This repository contains the data and code for the replication of [Are US Cities
 
 We extend the Chalfin- McCrary dataset on police employment and crime (1960-2010), till 2019. The original paper (ReStat 2018), computes the police elasticity of crime for a defined set of violent and property crimes as defined by the FBI Return A using a panel of 242 cities.
 
-The authors identify two sources of data for police employment, UCR and ASG. In this file, we first extend the data for both these variables, by cleaning the raw data, and preparing it for further inference.
+The authors identify two sources of data for police employment, UCR and ASG. We first extend the data for both these variables, by cleaning the raw data, and preparing it for further inference. Then we replicate the key results of Chalfin and McCrary (2018) for the original and well as the extended dataset.
 
 ## Code
 
 The folder `code` consists all the data and scripts required to clean and replicate the original results. There are two main subfolders:
 
-- `cleanup` - This has the raw data and code, which cleans and extends the data on crime and police employment
-- `replication`- This has the cleaned dataset and code, which replicates the results
+- `cleanup` - This has the raw data and code, which cleans and extends the data on crime and police employment.
+- `replication`- This has the cleaned dataset and code, which replicates the results.
 
 To obtain the cleaned extended dataset, follow these steps
 
@@ -27,3 +27,8 @@ To implement the replication, follow these steps
 3. Within the project, open `replication.R`.
 4. Run the file.
 
+This replicates the Table-1, Table-3 and Tanle-6 of Chalfin and McCrary (2018).
+
+## Software
+
+The raw data was opened using Microsoft Ecel 16, and Stata 16. The replication was conducted in R using R Studio (Version 1.4.1106).
