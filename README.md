@@ -27,7 +27,7 @@ To implement the replication, follow these steps
 3. Within the project, open `replication.R`.
 4. Run the file.
 
-This replicates the Table-1, Table-3 and Tanle-6 of Chalfin and McCrary (2018).
+This replicates the Table-1, Table-3 and Table-6 of Chalfin and McCrary (2018). All the functions required for inference are sourced from `replicationfuns.R`.
 
 ## Software
 
