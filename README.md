@@ -8,17 +8,13 @@ The authors identify two sources of data for police employment, UCR and ASG. We 
 
 ## Code
 
-The folder `code` consists all the data and scripts required to clean and replicate the original results. There are two main subfolders:
+The folder `replication` consists all the data and scripts required to clean and replicate the original results, consisting of the following files:
 
-- `cleanup` - This has the raw data and code, which cleans and extends the data on crime and police employment.
-- `replication`- This has the cleaned dataset and code, which replicates the results.
-
-To obtain the cleaned extended dataset, follow these steps
-
-1. Go to the folder `cleanup`.
-2. Open `Cleanup.Rproj`
-3. Within the project, open `Cleanup.R`
-4. Run the file. The final csv output is already stored in the replication folder.
+- `narrow.csv`- cleaned original dataset (1960-2010).
+- `wide.csv`- cleaned extended dataset (1960-2019).
+- `replication.Rproj`- R Project associated with this folder.
+- `replicationfuns.R`- R script hosting all functions required to replicate the results.
+` replication.R`- R script implementing the replication.
 
 To implement the replication, follow these steps
 
@@ -31,4 +27,4 @@ This replicates the Table-1, Table-3 and Table-6 of Chalfin and McCrary (2018). 
 
 ## Software
 
-The raw data was opened using Microsoft Ecel 16, and Stata 16. The replication was conducted in R using R Studio (Version 1.4.1106).
+The raw data was opened using Microsoft Excel 16, and Stata 16. The replication was conducted in R using R Studio (Version 1.4.1106).
