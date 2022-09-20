@@ -23,8 +23,7 @@ To implement the replication, follow these steps
 3. Within the project, open `replication.R`.
 4. Run the file.
 
-This replicates the Table-2, Table-3 and Table-6 of Chalfin and McCrary (2018). All the functions required for inference are sourced from `replicationfuns.R`.
-
+This replicates the Table-2, Table-3 and Table-6 of Chalfin and McCrary (2018).
 ## Software
 
 The raw data was opened using Microsoft Excel 16, and Stata 16. The replication was conducted in R using R Studio (Version 1.4.1106).
