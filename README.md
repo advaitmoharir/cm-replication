@@ -8,22 +8,23 @@ The authors identify two sources of data for police employment, UCR and ASG. We 
 
 ## Code
 
-The folder `replication` consists all the data and scripts required to clean and replicate the original results, consisting of the following files:
+The folder `02_code` consists all the data and scripts required to clean and replicate the original results, consisting of the following files:
 
-- `narrow.csv`- cleaned original dataset (1960-2010).
-- `wide.csv`- cleaned extended dataset (1960-2019).
-- `replication.Rproj`- R Project associated with this folder.
-- `replicationfuns.R`- R script hosting all functions required to replicate the results.
-` replication.R`- R script implementing the replication.
+- `00_master.R` -  Master R script
+- `01_cleanup.R`- cleans original and extended dataset (1960-2010).
+- `02_replication.R`- replicates Table 3 and 6 of CM 2018 with narrow and wide dataset.
+- `02_replication_novel.R`- replicates Table 3 and 6 of CM 2018 with novel dataset.
+- `03_replicationfuns.R`- R script hosting all functions required to replicate the results.
+` 04_rep_newdata.R`- replicates Table 3 and 6 of CM 2018 with new data (2011-2019) as a robustness check.
 
+## Replication
 To implement the replication, follow these steps
 
-1. Go to the folder `replication`.
-2. Open `replication.Rproj`.
-3. Within the project, open `replication.R`.
+1. Open `cm-replication.Rproj`.
+3. Within the project, open `00_master.R`.
 4. Run the file.
 
-This replicates the Table-2, Table-3 and Table-6 of Chalfin and McCrary (2018).
+
 ## Software
 
 The raw data was opened using Microsoft Excel 16, and Stata 16. The replication was conducted in R using R Studio (Version 1.4.1106).
