@@ -24,6 +24,7 @@ To implement the replication, follow these steps
 3. Within the project, open `00_master.R`.
 4. Run the file.
 
+The R script for running raw data (`01_cleanup.R`) has been commented outin the master script as the raw files are too big for Github. However, those wishing to replicate the cleanup can contact me via email, and the raw files can be shared as required.
 
 ## Software
 
