@@ -15,7 +15,7 @@ The folder `02_code` consists all the data and scripts required to clean and rep
 - `02_replication.R`- replicates Table 3 and 6 of CM 2018 with narrow and wide dataset.
 - `02_replication_novel.R`- replicates Table 3 and 6 of CM 2018 with novel dataset.
 - `03_replicationfuns.R`- R script hosting all functions required to replicate the results.
-` 04_rep_newdata.R`- replicates Table 3 and 6 of CM 2018 with new data (2011-2019) as a robustness check.
+- ` 04_rep_newdata.R`- replicates Table 3 and 6 of CM 2018 with new data (2011-2019) as a robustness check.
 
 ## Replication
 To implement the replication, follow these steps
