@@ -15,7 +15,7 @@ The folder `02_code` consists all the data and scripts required to clean and rep
 - `02_replication.R`- replicates Table 3 and 6 of CM 2018 with narrow and wide dataset.
 - `02_replication_novel.R`- replicates Table 3 and 6 of CM 2018 with novel dataset.
 - `03_replicationfuns.R`- R script hosting all functions required to replicate the results.
-` 04_rep_newdata.R`- replicates Table 3 and 6 of CM 2018 with new data (2011-2019) as a robustness check.
+- ` 04_rep_newdata.R`- replicates Table 3 and 6 of CM 2018 with new data (2011-2019) as a robustness check.
 
 ## Replication
 To implement the replication, follow these steps
@@ -24,6 +24,7 @@ To implement the replication, follow these steps
 3. Within the project, open `00_master.R`.
 4. Run the file.
 
+The R script for running raw data (`01_cleanup.R`) has been commented outin the master script as the raw files are too big for Github. However, those wishing to replicate the cleanup can contact me via email, and the raw files can be shared as required.
 
 ## Software
 
