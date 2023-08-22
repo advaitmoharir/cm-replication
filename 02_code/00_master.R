@@ -19,7 +19,7 @@ here::i_am("cm-replication.Rproj")
 
 # Run all files
 
-#source("02_code/01_cleanup.R") # cleans raw data
+source("02_code/01_cleanup.R") # cleans raw data
 source("02_code/02_replication.R") # narrow and wide dataset
 source("02_code/02_replication_novel.R") # novel dataset
 source("02_code/04_rep_newdata.R") # new data only

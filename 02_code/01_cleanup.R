@@ -22,9 +22,8 @@ library(tidyr)
 library(plm)
 library(varhandle)
 library(collapse)
-#Setting root directory
-#here::i_am("replication.Rproj")
-library(here)
+
+
 #Activating package 'here'
 #Setting working directory.
 

@@ -85,8 +85,8 @@ output2[[1]]
 ## Output as tex table for Appendix
 
 kable(output2[[1]],format="latex",booktabs=T, col.names=c("Crime 1", "Crime 2",
-                                                          "p-value", "p-value (HC1)"))%>%
-  save_kable("05_latex/Writeup/tables/tab6_hc1_narrow.tex")
+                                                          "p-value", "p-value (HC1)"))
+  #save_kable("05_latex/Writeup/tables/tab6_hc1_narrow.tex")
 
 
 #--------- TABLE IV: REGRESSION RESULTS: LONG DATASET --------------------------
@@ -105,8 +105,8 @@ output2[[2]]
 ## Output as tex table for Appendix
 
 kable(output2[[2]],format="latex",booktabs=T, col.names=c("Crime 1", "Crime 2",
-                                             "p-value", "p-value (HC1)" ))%>%
-  save_kable("05_latex/Writeup/tables/tab6_hc1_extended.tex")
+                                             "p-value", "p-value (HC1)" ))
+ # save_kable("05_latex/Writeup/tables/tab6_hc1_extended.tex")
 
 #-------------------------- END ------------------------------------------------
 
